@@ -3,11 +3,13 @@ name = "bot-assistance"
 version = "0.1.0"
 description = ""
 authors = ["SERHII MELNYK <melser68@i.ua>"]
+license = "MIT"
 readme = "README.md"
-#packages = [{include = "bot_assistance"}]
+
 
 [tool.poetry.dependencies]
 python = "^3.11"
+py7zr = "0.20.5"
 
 
 [build-system]
